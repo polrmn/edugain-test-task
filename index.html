@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fotoprokat24</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <span class="name">FP</span>
+          <span class="name--desktop">fotoprokat</span>
+          <span class="icon-logo">24</span>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Каталог</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">О компании</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Правила</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="iconsWrapper">
+          <div class="iconWrapper">
+            <svg class="icon icon-star">
+              <use xlink:href="./images/icons.svg#icon-star"></use>
+            </svg>
+            <div class="status"></div>
+          </div>
+          <div class="iconWrapper">
+            <svg class="icon icon-compare">
+              <use xlink:href="./images/icons.svg#icon-compare"></use>
+            </svg>
+            <div class="status"></div>
+          </div>
+          <div class="iconWrapper">
+            <svg class="icon icon-shopping-cart">
+              <use xlink:href="./images/icons.svg#icon-shopping-cart"></use>
+            </svg>
+            <div class="status"></div>
+          </div>
+        </div>
+        <div class="toolbar">
+          <div class="iconWrapper">
+            <svg class="icon icon-search">
+              <use xlink:href="./images/icons.svg#icon-search"></use>
+            </svg>
+          </div>
+          <div class="iconWrapper">
+            <svg class="icon icon-user">
+              <use xlink:href="./images/icons.svg#icon-user"></use>
+            </svg>
+          </div>
+          <button class="menuIcon" id="menuBtn">
+            <svg class="icon icon-user">
+              <use xlink:href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">
+            <span class="hero__block hero__block--large"
+              >Аренда фото и видео</span
+            >
+            <span class="hero__block hero__block--thin">оборудования</span>
+          </h1>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <svg class="icon icon-star">
+                <use xlink:href="./images/icons.svg#icon-list"></use>
+              </svg>
+              <p class="advantages__text">Самый большой выбор техники</p>
+            </li>
+            <li class="advantages__item">
+              <svg class="icon icon-star">
+                <use xlink:href="./images/icons.svg#icon-time"></use>
+              </svg>
+              <p class="advantages__text">Быстрое оформление заказа</p>
+            </li>
+            <li class="advantages__item">
+              <svg class="icon icon-star">
+                <use xlink:href="./images/icons.svg#icon-placeholder"></use>
+              </svg>
+              <p class="advantages__text">
+                Можно забрать заказ в пункте выдачи
+              </p>
+            </li>
+            <li class="advantages__item">
+              <svg class="icon icon-star">
+                <use xlink:href="./images/icons.svg#icon-product"></use>
+              </svg>
+              <p class="advantages__text">Доставка в любую точку Москвы</p>
+            </li>
+            <li class="advantages__item">
+              <svg class="icon icon-star">
+                <use
+                  xlink:href="./images/icons.svg#icon-commerce-and-shopping"
+                ></use>
+              </svg>
+              <p class="advantages__text">Оплата картой и наличными</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <h2 class="products__title"><span>Популярные</span> товары</h2>
+          <ul class="products__list">
+            <li class="product">
+              <div class="product__icon-wrapper">
+                <svg class="icon icon-star">
+                  <use xlink:href="./images/icons.svg#icon-compare"></use>
+                </svg>
+                <svg class="icon icon-star">
+                  <use xlink:href="./images/icons.svg#icon-star"></use>
+                </svg>
+              </div>
+              <div class="product__wrapper">
+                <figure class="product__figure">
+                  <img
+                    src="./images/canon1.jpg"
+                    alt="Canon PowerShot SX620 HS"
+                    class="product__image"
+                    width="190"
+                  />
+                  <figcaption>
+                    <h3>PowerShot SX620 HS</h3>
+                    <h4>Canon</h4>
+                  </figcaption>
+                </figure>
+                <ul class="product__tariffs">
+                  <li class="product__tariff">
+                    <h3>630 &#8381</h3>
+                    <h4>Будний</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>750 &#8381</h3>
+                    <h4>Выходной</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>4 380 &#8381</h3>
+                    <h4>Неделя</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>12 250 &#8381</h3>
+                    <h4>Месяц</h4>
+                  </li>
+                </ul>
+                <div class="product__btns-wrapper">
+                  <button class="product__details-btn">Подробнее</button>
+                  <button class="product__add-btn">
+                    <svg class="icon icon-star">
+                      <use xlink:href="./images/icons.svg#icon-cart-fill"></use>
+                    </svg>
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product__icon-wrapper">
+                <svg class="icon icon-star">
+                  <use xlink:href="./images/icons.svg#icon-compare"></use>
+                </svg>
+                <svg class="icon icon-star">
+                  <use xlink:href="./images/icons.svg#icon-star"></use>
+                </svg>
+              </div>
+              <div class="product__wrapper">
+                <figure class="product__figure">
+                  <img
+                    src="./images/canon2.jpg"
+                    alt="Canon PowerShot SX620 HS"
+                    class="product__image"
+                    width="190"
+                  />
+                  <figcaption>
+                    <h3>PowerShot SX620 HS</h3>
+                    <h4>Canon</h4>
+                  </figcaption>
+                </figure>
+                <ul class="product__tariffs">
+                  <li class="product__tariff">
+                    <h3>630 &#8381</h3>
+                    <h4>Будний</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>750 &#8381</h3>
+                    <h4>Выходной</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>4 380 &#8381</h3>
+                    <h4>Неделя</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>12 250 &#8381</h3>
+                    <h4>Месяц</h4>
+                  </li>
+                </ul>
+                <div class="product__btns-wrapper">
+                  <button class="product__details-btn">Подробнее</button>
+                  <button class="product__add-btn">
+                    <svg class="icon icon-star">
+                      <use xlink:href="./images/icons.svg#icon-cart-fill"></use>
+                    </svg>
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <div class="product__icon-wrapper">
+                <svg class="icon icon-star">
+                  <use xlink:href="./images/icons.svg#icon-compare"></use>
+                </svg>
+                <svg class="icon icon-star">
+                  <use xlink:href="./images/icons.svg#icon-star"></use>
+                </svg>
+              </div>
+              <div class="product__wrapper">
+                <figure class="product__figure">
+                  <img
+                    src="./images/canon3.jpg"
+                    alt="Canon PowerShot SX620 HS"
+                    class="product__image"
+                    width="190"
+                  />
+                  <figcaption>
+                    <h3>PowerShot SX620 HS</h3>
+                    <h4>Canon</h4>
+                  </figcaption>
+                </figure>
+                <ul class="product__tariffs">
+                  <li class="product__tariff">
+                    <h3>630 &#8381</h3>
+                    <h4>Будний</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>750 &#8381</h3>
+                    <h4>Выходной</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>4 380 &#8381</h3>
+                    <h4>Неделя</h4>
+                  </li>
+                  <li class="product__tariff">
+                    <h3>12 250 &#8381</h3>
+                    <h4>Месяц</h4>
+                  </li>
+                </ul>
+                <div class="product__btns-wrapper">
+                  <button class="product__details-btn">Подробнее</button>
+                  <button class="product__add-btn">
+                    <svg class="icon icon-star">
+                      <use xlink:href="./images/icons.svg#icon-cart-fill"></use>
+                    </svg>
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container">
+          <h2 class="info__title">Вы <span>ищете</span> что-то конкретное?</h2>
+          <p class="info__text">
+            Проект 
+            <strong>Fotoprokat24</strong>
+            является агрегатором предложений всех фотопрокатов Москвы и служит для Вашего удобства. Выберете необходимую категорию, либо начните поиск по названию. Оформив заказ, Вы сможете забрать его из Пункта Выдачи, либо заказать доставку в любую точку Москвы.
+          </p>
+          <div class="info__btn-wrapper">
+            <button class="info__btn info__btn--catalog">Перейти в Каталог</button>
+            <button class="info__btn info__btn--search">Приступить к поиску</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="menu hidden" id="menu">
+      <div class="container">
+        <nav class="menu_nav">
+          <ul class="menu_nav__list">
+              <li class="menu_nav__item"><a href="#" class="menu_nav__link">Каталог</a></li>
+              <li class="menu_nav__item">
+                <a href="#" class="menu_nav__link">О компании</a>
+              </li>
+              <li class="menu_nav__item"><a href="#" class="menu_nav__link">Правила</a></li>
+              <li class="menu_nav__item"><a href="#" class="menu_nav__link">Новости</a></li>
+              <li class="menu_nav__item">
+                <a href="#" class="menu_nav__link">Контакты</a>
+              </li>
+            </ul>
+            <button class="menu__close-button" id="close"></button>
+        </nav>
+      </div>
+    </div>
+
+    <script type="module" defer src="./index.js"></script>
+  </body>
+</html>
